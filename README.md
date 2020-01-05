@@ -1,3 +1,21 @@
+# reyemxela's Ender-3 Marlin configs
+
+This is my fork of the official [Marlin](https://github.com/MarlinFirmware/Marlin/) firmware, specifically v1.1.9.
+
+I made this so I could more easily keep track of/backup my config tweaks for my Ender-3. I took the Ender-3 example configs and adjusted things to my needs.
+
+Biggest feature differences from stock:
+- Custom default e-steps
+- S-curve enabled
+- Junction Deviation enabled
+- Manual Mesh Bed Leveling enabled
+- Linear Advance enabled
+- Slim LCD Menus enabled (to save room for other features)
+- Menu beeps turned off
+- Arc support disabled (to save room)
+
+More changes likely to come eventually.
+
 # Marlin 3D Printer Firmware
 <img align="right" src="../../raw/1.1.x/buildroot/share/pixmaps/logo/marlin-250.png" />
 
